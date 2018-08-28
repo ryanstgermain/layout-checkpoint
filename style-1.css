@@ -1,0 +1,49 @@
+.maincont {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-height: 1000px;
+}   
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    height: 150px;
+    width: 150px; 
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    height: 150px;
+    width: 150px;
+}  
+
+.row1 {
+    border: solid black 1px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid black 1px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+
